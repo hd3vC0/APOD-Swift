@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PreviewViewController" customModule="APOD_Swift" customModuleProvider="target">
+            <connections>
+                <outlet property="date" destination="UTd-da-JBm" id="DzF-vS-c4v"/>
+                <outlet property="downloadIndicator" destination="vaG-ge-kWJ" id="05Z-RM-AQj"/>
+                <outlet property="imagePreview" destination="2ON-LX-fuA" id="fm5-id-kJ6"/>
+                <outlet property="textDescription" destination="jDo-nb-JEB" id="Slu-Ac-yDx"/>
+                <outlet property="textTitle" destination="hZK-Hg-c8V" id="kMk-03-co4"/>
+                <outlet property="view" destination="waA-ND-Xle" id="MXi-IH-2ua"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="waA-ND-Xle">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2ON-LX-fuA">
+                    <rect key="frame" x="0.0" y="44" width="414" height="383"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="2ON-LX-fuA" secondAttribute="height" multiplier="414:383" id="qru-aq-6mF"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title of picture" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZK-Hg-c8V">
+                    <rect key="frame" x="20" y="446" width="374" height="30"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YYYY-MM-DD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTd-da-JBm">
+                    <rect key="frame" x="20" y="481" width="374" height="13.5"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDo-nb-JEB">
+                    <rect key="frame" x="20" y="502.5" width="374" height="93"/>
+                    <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="close" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fox-jw-v82">
+                    <rect key="frame" x="326" y="54" width="78" height="32"/>
+                    <buttonConfiguration key="configuration" style="gray" title="Close" cornerStyle="capsule">
+                        <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="closeButton:" destination="-1" eventType="touchUpInside" id="OrI-t6-OfN"/>
+                    </connections>
+                </button>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="vaG-ge-kWJ">
+                    <rect key="frame" x="20" y="60" width="185" height="20.5"/>
+                    <subviews>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="jrb-aD-EbD">
+                            <rect key="frame" x="0.0" y="0.0" width="20" height="20.5"/>
+                            <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </activityIndicatorView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Downloading picture" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uyv-p0-dP6">
+                            <rect key="frame" x="28" y="0.0" width="157" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20.5" id="KlJ-JD-mSB"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="25Q-f2-fJj"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vaG-ge-kWJ" firstAttribute="leading" secondItem="25Q-f2-fJj" secondAttribute="leading" constant="20" id="5ng-jg-Gu4"/>
+                <constraint firstAttribute="trailing" secondItem="Fox-jw-v82" secondAttribute="trailing" constant="10" id="6gK-0S-pfF"/>
+                <constraint firstItem="25Q-f2-fJj" firstAttribute="trailing" secondItem="2ON-LX-fuA" secondAttribute="trailing" id="7o7-Ca-ZW0"/>
+                <constraint firstItem="UTd-da-JBm" firstAttribute="top" secondItem="hZK-Hg-c8V" secondAttribute="bottom" constant="5" id="DiV-rj-9Co"/>
+                <constraint firstItem="25Q-f2-fJj" firstAttribute="trailing" secondItem="UTd-da-JBm" secondAttribute="trailing" constant="20" id="N4F-IF-Ubq"/>
+                <constraint firstItem="hZK-Hg-c8V" firstAttribute="leading" secondItem="25Q-f2-fJj" secondAttribute="leading" constant="20" id="NOI-XD-VnO"/>
+                <constraint firstItem="UTd-da-JBm" firstAttribute="leading" secondItem="25Q-f2-fJj" secondAttribute="leading" constant="20" id="Sg1-Tr-jYV"/>
+                <constraint firstItem="jDo-nb-JEB" firstAttribute="leading" secondItem="25Q-f2-fJj" secondAttribute="leading" constant="20" id="W3J-2e-P3b"/>
+                <constraint firstItem="25Q-f2-fJj" firstAttribute="trailing" secondItem="jDo-nb-JEB" secondAttribute="trailing" constant="20" id="YeN-3G-0sF"/>
+                <constraint firstItem="2ON-LX-fuA" firstAttribute="top" secondItem="25Q-f2-fJj" secondAttribute="top" id="cva-Ou-5fe"/>
+                <constraint firstItem="jDo-nb-JEB" firstAttribute="top" secondItem="UTd-da-JBm" secondAttribute="bottom" constant="8" symbolic="YES" id="gtx-Dy-Sxk"/>
+                <constraint firstItem="hZK-Hg-c8V" firstAttribute="top" secondItem="2ON-LX-fuA" secondAttribute="bottom" constant="19" id="hk7-WA-OV2"/>
+                <constraint firstItem="vaG-ge-kWJ" firstAttribute="top" secondItem="25Q-f2-fJj" secondAttribute="top" constant="16" id="o2C-Wd-LsM"/>
+                <constraint firstItem="2ON-LX-fuA" firstAttribute="leading" secondItem="25Q-f2-fJj" secondAttribute="leading" id="rEI-Az-kab"/>
+                <constraint firstItem="25Q-f2-fJj" firstAttribute="trailing" secondItem="hZK-Hg-c8V" secondAttribute="trailing" constant="20" id="uFY-dc-9h1"/>
+                <constraint firstItem="Fox-jw-v82" firstAttribute="top" secondItem="25Q-f2-fJj" secondAttribute="top" constant="10" id="z6y-Mm-uG7"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="83.705357142857139"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

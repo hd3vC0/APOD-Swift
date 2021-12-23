@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController">
+            <connections>
+                <outlet property="collectionViewController" destination="e6d-IW-Scd" id="nvq-ft-qg2"/>
+                <outlet property="indicator" destination="Soi-0w-1lY" id="R6b-gb-Ky1"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="e6d-IW-Scd">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="sOx-IT-Mcc">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="72"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Soi-0w-1lY">
+                    <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                    <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </activityIndicatorView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="825-dV-NMq">
+                    <rect key="frame" x="103" y="805" width="208" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="4IO-SO-yG9"/>
+                    </constraints>
+                    <buttonConfiguration key="configuration" style="filled" image="calendar" catalog="system" title="Show picture of the day" imagePadding="10" cornerStyle="capsule"/>
+                    <connections>
+                        <action selector="showPictureofDay:" destination="-1" eventType="touchUpInside" id="ju2-gf-AHR"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="e6d-IW-Scd" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="5Z9-mp-JkT"/>
+                <constraint firstItem="Soi-0w-1lY" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="8F4-Kq-Cmn"/>
+                <constraint firstItem="e6d-IW-Scd" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="9U6-SL-gC2"/>
+                <constraint firstItem="e6d-IW-Scd" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="Du3-dV-wUi"/>
+                <constraint firstItem="825-dV-NMq" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Pgm-KY-C6A"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="825-dV-NMq" secondAttribute="bottom" constant="12" id="gAV-ae-aL0"/>
+                <constraint firstItem="e6d-IW-Scd" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="p9t-Lx-Mdi"/>
+                <constraint firstItem="Soi-0w-1lY" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="wQ1-jZ-nn4"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="90.401785714285708"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="calendar" catalog="system" width="128" height="106"/>
+    </resources>
+</document>

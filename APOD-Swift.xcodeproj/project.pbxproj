@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		811DF3F42774BC8F007C131A /* PictureCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 811DF3F32774BC8F007C131A /* PictureCollectionViewCell.xib */; };
+		811DF3F62774BDBD007C131A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811DF3F52774BDBD007C131A /* Assets.xcassets */; };
 		812D785D2773E9E300498941 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812D785C2773E9E300498941 /* AppDelegate.swift */; };
 		812D785F2773E9E300498941 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812D785E2773E9E300498941 /* SceneDelegate.swift */; };
-		812D78612773E9E300498941 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812D78602773E9E300498941 /* ViewController.swift */; };
-		812D78642773E9E300498941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812D78622773E9E300498941 /* Main.storyboard */; };
-		812D78662773E9E400498941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 812D78652773E9E400498941 /* Assets.xcassets */; };
-		812D78692773E9E400498941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812D78672773E9E400498941 /* LaunchScreen.storyboard */; };
 		812D78742773E9E400498941 /* APOD_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812D78732773E9E400498941 /* APOD_SwiftTests.swift */; };
 		812D787E2773E9E400498941 /* APOD_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812D787D2773E9E400498941 /* APOD_SwiftUITests.swift */; };
 		812D78802773E9E400498941 /* APOD_SwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812D787F2773E9E400498941 /* APOD_SwiftUITestsLaunchTests.swift */; };
+		815C682E27751DDC006739A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815C682D27751DDC006739A3 /* LaunchScreen.storyboard */; };
+		81614A252773EDBE000E8FA4 /* AstronomyPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81614A242773EDBE000E8FA4 /* AstronomyPicture.swift */; };
+		81614A272773EE74000E8FA4 /* APODServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81614A262773EE74000E8FA4 /* APODServiceDelegate.swift */; };
+		81614A292773F020000E8FA4 /* RetrievePicturesWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81614A282773F020000E8FA4 /* RetrievePicturesWeek.swift */; };
+		81614A2B277432CE000E8FA4 /* RetrievePictureDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81614A2A277432CE000E8FA4 /* RetrievePictureDay.swift */; };
+		81614A2F27743472000E8FA4 /* AstronomyPictureResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81614A2E27743472000E8FA4 /* AstronomyPictureResponse.swift */; };
+		81614A322774353E000E8FA4 /* HttpRequestManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81614A312774353E000E8FA4 /* HttpRequestManagerDelegate.swift */; };
+		81614A3427743619000E8FA4 /* APODService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81614A3327743619000E8FA4 /* APODService.swift */; };
+		81614A36277437B2000E8FA4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81614A35277437B2000E8FA4 /* Constants.swift */; };
+		81614A3927743993000E8FA4 /* AlamoFireHttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81614A3827743993000E8FA4 /* AlamoFireHttpManager.swift */; };
+		81614A3B277449C0000E8FA4 /* ConfigServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81614A3A277449C0000E8FA4 /* ConfigServices.swift */; };
+		81614A3D27744ABB000E8FA4 /* ConfigUseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81614A3C27744ABB000E8FA4 /* ConfigUseCases.swift */; };
+		81614A4227745809000E8FA4 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81614A3E27745809000E8FA4 /* HomeViewController.xib */; };
+		81614A4527745809000E8FA4 /* DatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81614A4127745809000E8FA4 /* DatePickerViewController.xib */; };
+		81614A4727745840000E8FA4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81614A4627745840000E8FA4 /* HomeViewController.swift */; };
+		81614A4927745BC4000E8FA4 /* PictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81614A4827745BC4000E8FA4 /* PictureCollectionViewCell.swift */; };
+		8167C2E3277460EE00059F17 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8167C2E2277460EE00059F17 /* ImageLoader.swift */; };
+		81AA443D2774DB180007F424 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA443C2774DB180007F424 /* DatePickerViewController.swift */; };
+		81AA443F2774E0EB0007F424 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA443E2774E0EB0007F424 /* PreviewViewController.swift */; };
+		81CD7FF627751065004090A0 /* PreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81CD7FF527751065004090A0 /* PreviewViewController.xib */; };
 		93740C7F4AAF88D3F1B5D121 /* Pods_APOD_Swift_APOD_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221F6931980E01EC9F4701DD /* Pods_APOD_Swift_APOD_SwiftUITests.framework */; };
 		A3F195D8C08436F5765506A2 /* Pods_APOD_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6701640F903D7BDF2FBEA3AC /* Pods_APOD_Swift.framework */; };
 		F8753101D33EAE7D7E680B87 /* Pods_APOD_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7641F1F9651ED80E871B5BB /* Pods_APOD_SwiftTests.framework */; };
@@ -45,19 +63,37 @@
 		3938273C45448DFED00F7BD9 /* Pods-APOD-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APOD-Swift.release.xcconfig"; path = "Target Support Files/Pods-APOD-Swift/Pods-APOD-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		49FB3CFD6D9350CFB83FEE6E /* Pods-APOD-Swift-APOD-SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APOD-Swift-APOD-SwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-APOD-Swift-APOD-SwiftUITests/Pods-APOD-Swift-APOD-SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6701640F903D7BDF2FBEA3AC /* Pods_APOD_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APOD_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		811DF3F32774BC8F007C131A /* PictureCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PictureCollectionViewCell.xib; sourceTree = "<group>"; };
+		811DF3F52774BDBD007C131A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../APOD/APOD/Assets.xcassets; sourceTree = "<group>"; };
 		812D78592773E9E300498941 /* APOD-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APOD-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		812D785C2773E9E300498941 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		812D785E2773E9E300498941 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		812D78602773E9E300498941 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		812D78632773E9E300498941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		812D78652773E9E400498941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		812D78682773E9E400498941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		812D786A2773E9E400498941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		812D786F2773E9E400498941 /* APOD-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APOD-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		812D78732773E9E400498941 /* APOD_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APOD_SwiftTests.swift; sourceTree = "<group>"; };
 		812D78792773E9E400498941 /* APOD-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APOD-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		812D787D2773E9E400498941 /* APOD_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APOD_SwiftUITests.swift; sourceTree = "<group>"; };
 		812D787F2773E9E400498941 /* APOD_SwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APOD_SwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		815C682D27751DDC006739A3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81614A242773EDBE000E8FA4 /* AstronomyPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyPicture.swift; sourceTree = "<group>"; };
+		81614A262773EE74000E8FA4 /* APODServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODServiceDelegate.swift; sourceTree = "<group>"; };
+		81614A282773F020000E8FA4 /* RetrievePicturesWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrievePicturesWeek.swift; sourceTree = "<group>"; };
+		81614A2A277432CE000E8FA4 /* RetrievePictureDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrievePictureDay.swift; sourceTree = "<group>"; };
+		81614A2E27743472000E8FA4 /* AstronomyPictureResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyPictureResponse.swift; sourceTree = "<group>"; };
+		81614A312774353E000E8FA4 /* HttpRequestManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequestManagerDelegate.swift; sourceTree = "<group>"; };
+		81614A3327743619000E8FA4 /* APODService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODService.swift; sourceTree = "<group>"; };
+		81614A35277437B2000E8FA4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		81614A3827743993000E8FA4 /* AlamoFireHttpManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamoFireHttpManager.swift; sourceTree = "<group>"; };
+		81614A3A277449C0000E8FA4 /* ConfigServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigServices.swift; sourceTree = "<group>"; };
+		81614A3C27744ABB000E8FA4 /* ConfigUseCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigUseCases.swift; sourceTree = "<group>"; };
+		81614A3E27745809000E8FA4 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		81614A4127745809000E8FA4 /* DatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerViewController.xib; sourceTree = "<group>"; };
+		81614A4627745840000E8FA4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		81614A4827745BC4000E8FA4 /* PictureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCollectionViewCell.swift; sourceTree = "<group>"; };
+		8167C2E2277460EE00059F17 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		81AA443C2774DB180007F424 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		81AA443E2774E0EB0007F424 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		81CD7FF527751065004090A0 /* PreviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreviewViewController.xib; sourceTree = "<group>"; };
 		90F6E3A4332E2C2CE8FCC0FD /* Pods-APOD-SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APOD-SwiftTests.release.xcconfig"; path = "Target Support Files/Pods-APOD-SwiftTests/Pods-APOD-SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		B11799605A72E238AB9AAC1F /* Pods-APOD-Swift-APOD-SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APOD-Swift-APOD-SwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-APOD-Swift-APOD-SwiftUITests/Pods-APOD-Swift-APOD-SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F7641F1F9651ED80E871B5BB /* Pods_APOD_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APOD_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,12 +162,15 @@
 		812D785B2773E9E300498941 /* APOD-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				81614A3727743973000E8FA4 /* Manager */,
+				81614A1F2773ED1D000E8FA4 /* Services */,
+				81614A1E2773ED01000E8FA4 /* Configurations */,
+				81614A1D2773ECDD000E8FA4 /* ViewController */,
+				81614A1C2773ECD5000E8FA4 /* Domain */,
 				812D785C2773E9E300498941 /* AppDelegate.swift */,
 				812D785E2773E9E300498941 /* SceneDelegate.swift */,
-				812D78602773E9E300498941 /* ViewController.swift */,
-				812D78622773E9E300498941 /* Main.storyboard */,
-				812D78652773E9E400498941 /* Assets.xcassets */,
-				812D78672773E9E400498941 /* LaunchScreen.storyboard */,
+				811DF3F52774BDBD007C131A /* Assets.xcassets */,
+				815C682D27751DDC006739A3 /* LaunchScreen.storyboard */,
 				812D786A2773E9E400498941 /* Info.plist */,
 			);
 			path = "APOD-Swift";
@@ -154,6 +193,109 @@
 			path = "APOD-SwiftUITests";
 			sourceTree = "<group>";
 		};
+		81614A1C2773ECD5000E8FA4 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				81614A212773ED50000E8FA4 /* UserCases */,
+				81614A202773ED30000E8FA4 /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		81614A1D2773ECDD000E8FA4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				81614A4127745809000E8FA4 /* DatePickerViewController.xib */,
+				81614A3E27745809000E8FA4 /* HomeViewController.xib */,
+				81614A4627745840000E8FA4 /* HomeViewController.swift */,
+				81614A4827745BC4000E8FA4 /* PictureCollectionViewCell.swift */,
+				8167C2E2277460EE00059F17 /* ImageLoader.swift */,
+				811DF3F32774BC8F007C131A /* PictureCollectionViewCell.xib */,
+				81AA443C2774DB180007F424 /* DatePickerViewController.swift */,
+				81AA443E2774E0EB0007F424 /* PreviewViewController.swift */,
+				81CD7FF527751065004090A0 /* PreviewViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		81614A1E2773ED01000E8FA4 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				81614A35277437B2000E8FA4 /* Constants.swift */,
+				81614A3A277449C0000E8FA4 /* ConfigServices.swift */,
+				81614A3C27744ABB000E8FA4 /* ConfigUseCases.swift */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		81614A1F2773ED1D000E8FA4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				81614A3027743524000E8FA4 /* Protocols */,
+				81614A2C2774343B000E8FA4 /* APOD */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		81614A202773ED30000E8FA4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				81614A232773ED70000E8FA4 /* Gateways */,
+				81614A242773EDBE000E8FA4 /* AstronomyPicture.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		81614A212773ED50000E8FA4 /* UserCases */ = {
+			isa = PBXGroup;
+			children = (
+				81614A282773F020000E8FA4 /* RetrievePicturesWeek.swift */,
+				81614A2A277432CE000E8FA4 /* RetrievePictureDay.swift */,
+			);
+			path = UserCases;
+			sourceTree = "<group>";
+		};
+		81614A232773ED70000E8FA4 /* Gateways */ = {
+			isa = PBXGroup;
+			children = (
+				81614A262773EE74000E8FA4 /* APODServiceDelegate.swift */,
+			);
+			path = Gateways;
+			sourceTree = "<group>";
+		};
+		81614A2C2774343B000E8FA4 /* APOD */ = {
+			isa = PBXGroup;
+			children = (
+				81614A2D27743449000E8FA4 /* Dtos */,
+				81614A3327743619000E8FA4 /* APODService.swift */,
+			);
+			path = APOD;
+			sourceTree = "<group>";
+		};
+		81614A2D27743449000E8FA4 /* Dtos */ = {
+			isa = PBXGroup;
+			children = (
+				81614A2E27743472000E8FA4 /* AstronomyPictureResponse.swift */,
+			);
+			path = Dtos;
+			sourceTree = "<group>";
+		};
+		81614A3027743524000E8FA4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				81614A312774353E000E8FA4 /* HttpRequestManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		81614A3727743973000E8FA4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				81614A3827743993000E8FA4 /* AlamoFireHttpManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		F2D0DA094EC9FB7C46E22FED /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +306,6 @@
 				35AF4A41ACA3B6D2CC0FB740 /* Pods-APOD-SwiftTests.debug.xcconfig */,
 				90F6E3A4332E2C2CE8FCC0FD /* Pods-APOD-SwiftTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -277,9 +418,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				812D78692773E9E400498941 /* LaunchScreen.storyboard in Resources */,
-				812D78662773E9E400498941 /* Assets.xcassets in Resources */,
-				812D78642773E9E300498941 /* Main.storyboard in Resources */,
+				81614A4527745809000E8FA4 /* DatePickerViewController.xib in Resources */,
+				811DF3F62774BDBD007C131A /* Assets.xcassets in Resources */,
+				81CD7FF627751065004090A0 /* PreviewViewController.xib in Resources */,
+				815C682E27751DDC006739A3 /* LaunchScreen.storyboard in Resources */,
+				81614A4227745809000E8FA4 /* HomeViewController.xib in Resources */,
+				811DF3F42774BC8F007C131A /* PictureCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,9 +551,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				812D78612773E9E300498941 /* ViewController.swift in Sources */,
+				81614A3927743993000E8FA4 /* AlamoFireHttpManager.swift in Sources */,
+				81614A2F27743472000E8FA4 /* AstronomyPictureResponse.swift in Sources */,
+				81614A36277437B2000E8FA4 /* Constants.swift in Sources */,
+				81614A292773F020000E8FA4 /* RetrievePicturesWeek.swift in Sources */,
+				81614A272773EE74000E8FA4 /* APODServiceDelegate.swift in Sources */,
+				81614A252773EDBE000E8FA4 /* AstronomyPicture.swift in Sources */,
 				812D785D2773E9E300498941 /* AppDelegate.swift in Sources */,
+				81614A2B277432CE000E8FA4 /* RetrievePictureDay.swift in Sources */,
+				81614A3427743619000E8FA4 /* APODService.swift in Sources */,
+				81614A322774353E000E8FA4 /* HttpRequestManagerDelegate.swift in Sources */,
+				8167C2E3277460EE00059F17 /* ImageLoader.swift in Sources */,
+				81614A3D27744ABB000E8FA4 /* ConfigUseCases.swift in Sources */,
+				81AA443D2774DB180007F424 /* DatePickerViewController.swift in Sources */,
 				812D785F2773E9E300498941 /* SceneDelegate.swift in Sources */,
+				81614A4927745BC4000E8FA4 /* PictureCollectionViewCell.swift in Sources */,
+				81614A3B277449C0000E8FA4 /* ConfigServices.swift in Sources */,
+				81614A4727745840000E8FA4 /* HomeViewController.swift in Sources */,
+				81AA443F2774E0EB0007F424 /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,25 +603,6 @@
 			targetProxy = 812D787A2773E9E400498941 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		812D78622773E9E300498941 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				812D78632773E9E300498941 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		812D78672773E9E400498941 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				812D78682773E9E400498941 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		812D78812773E9E400498941 /* Debug */ = {
@@ -592,9 +732,10 @@
 				DEVELOPMENT_TEAM = F6NSS5E286;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "APOD-Swift/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NASA APOD";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -621,9 +762,10 @@
 				DEVELOPMENT_TEAM = F6NSS5E286;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "APOD-Swift/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NASA APOD";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
