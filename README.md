@@ -5,6 +5,7 @@ Astronomy Picture of the Day
 
 # Dependencias:
 - [Cocoapods](https://guides.cocoapods.org/using/getting-started.html)
+- Xcode
 
 # ¿Como correr el App?
 
