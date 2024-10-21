@@ -1,6 +1,7 @@
 # 🚀 APOD-Swift 🚀
 Astronomy Picture of the Day
 
+![preview](https://raw.githubusercontent.com/hd3vC0/APOD-Swift/refs/heads/main/preview.GIF)
 
 # Dependencias:
 - [Cocoapods](https://guides.cocoapods.org/using/getting-started.html)
