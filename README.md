@@ -1,5 +1,6 @@
-# 🚀 APOD-SoyYO-Swift 🚀
-Prueba técnica
+# 🚀 APOD-Swift 🚀
+Astronomy Picture of the Day
+
 
 # Dependencias:
 - [Cocoapods](https://guides.cocoapods.org/using/getting-started.html)
@@ -8,7 +9,7 @@ Prueba técnica
 
 1. Descarga el proyecto usando git
 
-    `git clone https://github.com/hd3vC0/APOD-SoyYO-Swift/`
+    `git clone https://github.com/hd3vC0/APOD-Swift/`
 
 2. Instala dependnencias Cocoapods:
   
